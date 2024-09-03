@@ -1,4 +1,4 @@
-/*
+ /*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -99,7 +99,7 @@
 
         keymap {
                 compatible = "zmk,keymap";
-
+#define QWERTY_BASE
 #ifdef QWERTY_BASE
         qwerty_layer {
             label = "Qwerty";
